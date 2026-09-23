@@ -56,7 +56,7 @@ Antes, con la base de datos que te dieron, copias y pegas los datos dentro de "h
 
 <img src="imagenes/quick.png">
 
-Luego, ejecutas esto y eliminas el archivo que termina en ".spec.ts"":
+Luego, ejecutas esto y eliminas el archivo que termina en ".spec.ts":
 ```bash
 ng g class medical/domain/model/specialty --type=entity
 ng g class medical/domain/model/BoardCertification --type=entity
@@ -77,3 +77,20 @@ ng g environments
 Así deben quedar los 2 archivos:
 
 <img src="imagenes/environments.png">
+
+### Medical
+
+Añades el archivo "top-headlines-response", ejecutas esto y eliminas el archivo que termina en ".spec.ts":
+
+```bash
+ng g service medical/infrastructure/specialty-assembler
+ng g interface medical/infrastructure/board-certification-response
+ng g service medical/infrastructure/board-certification-assembler
+ng g interface medical/infrastructure/key-procedure-response
+ng g service medical/infrastructure/key-procedure-assembler
+ng g service medical/infrastructure/medical-api
+```
+
+Así deben quedar:
+
+<img src="imagenes/medical_structure2.png">
