@@ -94,3 +94,9 @@ ng g service medical/infrastructure/medical-api
 Así deben quedar:
 
 <img src="imagenes/medical_structure2.png">
+
+Después debes ejecutar este comando y, como siempre, eliminar el archivo que termina con ".spec.ts":
+
+```bash
+ng g service medical/application/medical --type=store
+```
