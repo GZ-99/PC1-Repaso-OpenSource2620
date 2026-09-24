@@ -1,0 +1,294 @@
+{
+  "specialties": [
+    {
+      "specialtyName": "Cardiology",
+      "yearsOfResidency": 6,
+      "averageSalaryUsd": 507000,
+      "mainFocus": [
+        "Heart diseases",
+        "Cardiovascular system",
+        "Hypertension"
+      ],
+      "hospitalDepartment": "Cardiology Unit",
+      "patientPopulation": "Adults",
+      "boardCertification": {
+        "bodyName": "American Board of Internal Medicine",
+        "examFrequencyYears": 10,
+        "certificationCostUsd": 2500
+      },
+      "keyProcedures": [
+        {
+          "procedureName": "Cardiac Catheterization",
+          "averageCost": 5000,
+          "complexity": "High"
+        },
+        {
+          "procedureName": "Echocardiogram",
+          "averageCost": 350,
+          "complexity": "Low"
+        }
+      ]
+    },
+    {
+      "specialtyName": "Dermatology",
+      "yearsOfResidency": 4,
+      "averageSalaryUsd": 443000,
+      "mainFocus": [
+        "Skin disorders",
+        "Hair and nails",
+        "Skin cancer"
+      ],
+      "hospitalDepartment": "Dermatology Clinic",
+      "patientPopulation": "All ages",
+      "boardCertification": {
+        "bodyName": "American Board of Dermatology",
+        "examFrequencyYears": 10,
+        "certificationCostUsd": 2000
+      },
+      "keyProcedures": [
+        {
+          "procedureName": "Mohs Surgery",
+          "averageCost": 2500,
+          "complexity": "High"
+        },
+        {
+          "procedureName": "Skin Biopsy",
+          "averageCost": 400,
+          "complexity": "Medium"
+        }
+      ]
+    },
+    {
+      "specialtyName": "Neurology",
+      "yearsOfResidency": 4,
+      "averageSalaryUsd": 313000,
+      "mainFocus": [
+        "Brain disorders",
+        "Spinal cord",
+        "Peripheral nerves"
+      ],
+      "hospitalDepartment": "Neurological Sciences",
+      "patientPopulation": "Adults",
+      "boardCertification": {
+        "bodyName": "American Board of Psychiatry and Neurology",
+        "examFrequencyYears": 10,
+        "certificationCostUsd": 2200
+      },
+      "keyProcedures": [
+        {
+          "procedureName": "Lumbar Puncture",
+          "averageCost": 1200,
+          "complexity": "High"
+        },
+        {
+          "procedureName": "EEG Monitoring",
+          "averageCost": 600,
+          "complexity": "Medium"
+        }
+      ]
+    },
+    {
+      "specialtyName": "Orthopedic Surgery",
+      "yearsOfResidency": 5,
+      "averageSalaryUsd": 573000,
+      "mainFocus": [
+        "Musculoskeletal system",
+        "Bones and joints",
+        "Sports injuries"
+      ],
+      "hospitalDepartment": "Orthopedic Surgery Wing",
+      "patientPopulation": "All ages",
+      "boardCertification": {
+        "bodyName": "American Board of Orthopaedic Surgery",
+        "examFrequencyYears": 10,
+        "certificationCostUsd": 3000
+      },
+      "keyProcedures": [
+        {
+          "procedureName": "Total Knee Replacement",
+          "averageCost": 25000,
+          "complexity": "Very High"
+        },
+        {
+          "procedureName": "Arthroscopy",
+          "averageCost": 4500,
+          "complexity": "Medium"
+        }
+      ]
+    },
+    {
+      "specialtyName": "Pediatrics",
+      "yearsOfResidency": 3,
+      "averageSalaryUsd": 251000,
+      "mainFocus": [
+        "Infant health",
+        "Child development",
+        "Adolescent medicine"
+      ],
+      "hospitalDepartment": "Children's Pavilion",
+      "patientPopulation": "Children",
+      "boardCertification": {
+        "bodyName": "American Board of Pediatrics",
+        "examFrequencyYears": 7,
+        "certificationCostUsd": 1800
+      },
+      "keyProcedures": [
+        {
+          "procedureName": "Newborn Screening",
+          "averageCost": 150,
+          "complexity": "Low"
+        },
+        {
+          "procedureName": "Pediatric Intubation",
+          "averageCost": 800,
+          "complexity": "High"
+        }
+      ]
+    },
+    {
+      "specialtyName": "Psychiatry",
+      "yearsOfResidency": 4,
+      "averageSalaryUsd": 309000,
+      "mainFocus": [
+        "Mental health",
+        "Emotional disorders",
+        "Substance abuse"
+      ],
+      "hospitalDepartment": "Behavioral Health",
+      "patientPopulation": "All ages",
+      "boardCertification": {
+        "bodyName": "American Board of Psychiatry and Neurology",
+        "examFrequencyYears": 10,
+        "certificationCostUsd": 2100
+      },
+      "keyProcedures": [
+        {
+          "procedureName": "Electroconvulsive Therapy",
+          "averageCost": 2500,
+          "complexity": "High"
+        },
+        {
+          "procedureName": "Psychological Evaluation",
+          "averageCost": 500,
+          "complexity": "Medium"
+        }
+      ]
+    },
+    {
+      "specialtyName": "Radiology",
+      "yearsOfResidency": 5,
+      "averageSalaryUsd": 483000,
+      "mainFocus": [
+        "Medical imaging",
+        "Diagnostic radiation",
+        "Nuclear medicine"
+      ],
+      "hospitalDepartment": "Radiology Department",
+      "patientPopulation": "All ages",
+      "boardCertification": {
+        "bodyName": "American Board of Radiology",
+        "examFrequencyYears": 10,
+        "certificationCostUsd": 2800
+      },
+      "keyProcedures": [
+        {
+          "procedureName": "CT Scan Interpretation",
+          "averageCost": 300,
+          "complexity": "Medium"
+        },
+        {
+          "procedureName": "Image-Guided Biopsy",
+          "averageCost": 1500,
+          "complexity": "High"
+        }
+      ]
+    },
+    {
+      "specialtyName": "Anesthesiology",
+      "yearsOfResidency": 4,
+      "averageSalaryUsd": 448000,
+      "mainFocus": [
+        "Pain management",
+        "Surgical sedation",
+        "Critical care"
+      ],
+      "hospitalDepartment": "Operating Theater",
+      "patientPopulation": "All ages",
+      "boardCertification": {
+        "bodyName": "American Board of Anesthesiology",
+        "examFrequencyYears": 10,
+        "certificationCostUsd": 2700
+      },
+      "keyProcedures": [
+        {
+          "procedureName": "Epidural Administration",
+          "averageCost": 1200,
+          "complexity": "Medium"
+        },
+        {
+          "procedureName": "General Anesthesia Induction",
+          "averageCost": 3000,
+          "complexity": "High"
+        }
+      ]
+    },
+    {
+      "specialtyName": "Ophthalmology",
+      "yearsOfResidency": 4,
+      "averageSalaryUsd": 388000,
+      "mainFocus": [
+        "Vision care",
+        "Eye surgery",
+        "Glaucoma management"
+      ],
+      "hospitalDepartment": "Eye Institute",
+      "patientPopulation": "All ages",
+      "boardCertification": {
+        "bodyName": "American Board of Ophthalmology",
+        "examFrequencyYears": 10,
+        "certificationCostUsd": 2400
+      },
+      "keyProcedures": [
+        {
+          "procedureName": "Cataract Surgery",
+          "averageCost": 3500,
+          "complexity": "High"
+        },
+        {
+          "procedureName": "Laser Eye Surgery",
+          "averageCost": 2000,
+          "complexity": "Medium"
+        }
+      ]
+    },
+    {
+      "specialtyName": "Gastroenterology",
+      "yearsOfResidency": 6,
+      "averageSalaryUsd": 501000,
+      "mainFocus": [
+        "Digestive tract",
+        "Liver health",
+        "Endoscopy"
+      ],
+      "hospitalDepartment": "Digestive Health Unit",
+      "patientPopulation": "Adults",
+      "boardCertification": {
+        "bodyName": "American Board of Internal Medicine",
+        "examFrequencyYears": 10,
+        "certificationCostUsd": 2500
+      },
+      "keyProcedures": [
+        {
+          "procedureName": "Colonoscopy",
+          "averageCost": 2800,
+          "complexity": "High"
+        },
+        {
+          "procedureName": "Upper Endoscopy",
+          "averageCost": 1500,
+          "complexity": "Medium"
+        }
+      ]
+    }
+  ]
+}
