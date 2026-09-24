@@ -93,3 +93,14 @@ Después debes ejecutar este comando y, como siempre, eliminar el archivo que te
 ng g service medical/application/medical --type=store
 ```
 
+Finalmente, para terminar con esta carpeta, ejecuta este comando para crear la capa presentation:
+
+```bash
+ng g c medical/presentation/medical-page/medical-page
+```
+
+Así debe quedar:
+
+<img src="imagenes/medical_structure3.png">
+
+<img src="">
