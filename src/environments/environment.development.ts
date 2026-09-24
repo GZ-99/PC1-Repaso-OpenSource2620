@@ -1,9 +1,7 @@
 export const environment = {
-  production: false,
-  medicalProviderApiBaseUrl: 'https://www.nlm.nih.gov/mesh/meshhome.html',
-  medicalProviderSpecialtyEndpointPath: '/top-headlines',
-  medicalProviderBoardCertificationsEndpointPath: '/board',
-  medicalProviderKeyProceduresEndpointPath: '/procedures',
+  production: true,
+  medicalApiBaseUrl: 'https://www.nlm.nih.gov/mesh/meshhome.html',
+  medicalProviderSpecialtyEndpointPath: '/specialty',
   logoProviderApiBaseUrl: 'https://img.logo.dev/',
   logoProviderPublishableKey: 'pk_H1j_uA9GRFizL2ikMw4qwQ'
 };
