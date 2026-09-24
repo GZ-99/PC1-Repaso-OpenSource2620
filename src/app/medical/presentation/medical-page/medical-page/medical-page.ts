@@ -1,10 +1,11 @@
 import { Component, inject, signal } from '@angular/core';
+import { TranslatePipe } from '@ngx-translate/core';
 import { MedicalStore } from '../../../application/medical.store';
 import { MatButtonModule } from '@angular/material/button';
 import { MatCardModule } from '@angular/material/card';
 
 @Component({
-  imports: [MatCardModule, MatButtonModule],
+  imports: [MatCardModule, MatButtonModule, TranslatePipe],
   selector: 'app-medical-page',
   styleUrl: './medical-page.css',
   templateUrl: './medical-page.html',

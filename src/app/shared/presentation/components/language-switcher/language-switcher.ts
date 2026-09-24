@@ -1,9 +1,29 @@
-import { Component } from '@angular/core';
+import {ChangeDetectionStrategy, Component} from '@angular/core';
+import {TranslateService} from '@ngx-translate/core';
+import {MatButtonToggle, MatButtonToggleGroup} from '@angular/material/button-toggle';
 
 @Component({
-  imports: [],
   selector: 'app-language-switcher',
-  styleUrl: './language-switcher.css',
+  imports: [
+    MatButtonToggleGroup,
+    MatButtonToggle
+  ],
   templateUrl: './language-switcher.html',
+  changeDetection: ChangeDetectionStrategy.Eager,
+  styleUrl: './language-switcher.css'
 })
-export class LanguageSwitcher {}
+
+export class LanguageSwitcher {
+  currentLang = 'en';
+  languages = ['en', 'es'];
+
+  constructor(private translate: TranslateService) {
+    this.currentLang = translate.currentLang() || 'en';
+    this.translate.use(this.currentLang);
+  }
+
+  useLanguage(language: string) {
+    this.translate.use(language);
+    this.currentLang = language;
+  }
+}
