@@ -29,12 +29,9 @@ ng version
 Para empezar, hay que ejecutar:
 
 ```bash
-ng g class shared/domain/model/date-time
-ng g class shared/domain/model/url
-
-ng g class shared/infrastructure/logo-dev-api
-
+ng add @angular/material
 ng g c shared/presentation/components/footer
+ng g c shared/presentation/components/toolbar
 ng g c shared/presentation/components/language-switcher
 ng g c shared/presentation/components/layout
 ```
@@ -44,11 +41,11 @@ Así debe quedar, después de ejecutar estos comandos y eliminar algunos archivo
 <img src="imagenes/shared-structure.png">
 
 Luego, tienes que desarrollar estos archivos:
-* Los archivos de domain/model: "date-time.ts" y "url.ts" (Estos son opcionales)
 * Los archivos de "footer" y luego conectarlos con "app.html (Para ver si funciona)
 ```bash
 <app-footer/>
 ```
+* Luego, desarrollas los arhivos de "toolbar".
 
 ### Medical
 
@@ -59,11 +56,9 @@ Antes, con la base de datos que te dieron, copias y pegas los datos dentro de "h
 Luego, ejecutas esto y eliminas el archivo que termina en ".spec.ts":
 ```bash
 ng g class medical/domain/model/specialty --type=entity
-ng g class medical/domain/model/BoardCertification --type=entity
-ng g class medical/domain/model/KeyProcedure --type=entity      
 ```
 
-Así deben quedar:
+Así deben quedar (Incluso si hay sub clases, solhaz un entity del principal):
 
 <img src="imagenes/medical_structure1.png">
 
@@ -83,11 +78,8 @@ Así deben quedar los 2 archivos:
 Añades el archivo "top-headlines-response", ejecutas esto y eliminas el archivo que termina en ".spec.ts":
 
 ```bash
+ng g interface medical/infrastructure/specialty-response
 ng g service medical/infrastructure/specialty-assembler
-ng g interface medical/infrastructure/board-certification-response
-ng g service medical/infrastructure/board-certification-assembler
-ng g interface medical/infrastructure/key-procedure-response
-ng g service medical/infrastructure/key-procedure-assembler
 ng g service medical/infrastructure/medical-api
 ```
 
@@ -100,3 +92,4 @@ Después debes ejecutar este comando y, como siempre, eliminar el archivo que te
 ```bash
 ng g service medical/application/medical --type=store
 ```
+
