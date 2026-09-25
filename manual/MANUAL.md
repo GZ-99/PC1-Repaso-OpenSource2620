@@ -147,4 +147,4 @@ Al mismo tiempo que tienes que configurar el archivo "app.config.ts" de esta for
 
 Este es el resultado final:
 
-<img src="imagenes">
+<img src="imagenes/final.png">
