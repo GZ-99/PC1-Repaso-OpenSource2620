@@ -1,8 +1,13 @@
 {
   "title": "Catálogo de Especialidades Médicas",
+  "titles": {
+    "title1": "Nombre de Especialidad:",
+    "title2": "Departamento del hospital:"
+  },
   "card": {
     "title1": "Años de Residencia:",
     "title2": "Salario promedio en USD:",
     "title3": "Población de pacientes:"
-  }
+  },
+  "final": "Certificación de la Junta"
 }

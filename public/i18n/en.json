@@ -1,8 +1,13 @@
 {
   "title": "Medical Specialties Catalog",
+  "titles": {
+    "title1": "Specialty Name:",
+    "title2": "Hospital Department:"
+  },
   "card": {
     "title1": "Years of Residency:",
     "title2": "Average Salary Usd:",
     "title3": "Patient Population:"
-  }
+  },
+  "final": "Board Certification"
 }

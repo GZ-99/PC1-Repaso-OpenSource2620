@@ -4,21 +4,27 @@
   @for(specialty of store.specialties(); track specialty.specialtyName) {
     <mat-card class="example-card" appearance="outlined">
       <mat-card-header>
-        <mat-card-title>{{ specialty.specialtyName }}</mat-card-title>
-        <mat-card-subtitle>{{ specialty.hospitalDepartment }}</mat-card-subtitle>
+        <mat-card-title><strong>{{ 'titles.title1' | translate }}</strong>
+          {{ specialty.specialtyName }}</mat-card-title>
+        <mat-card-subtitle><strong>{{ 'titles.title2' | translate }}</strong>
+          {{ specialty.hospitalDepartment }}</mat-card-subtitle>
       </mat-card-header>
       <mat-card-content>
-        <p>
+        <h3>
           <strong>{{ 'card.title1' | translate }}</strong>
           {{ specialty.yearsOfResidency }}
-        </p>
-        <p>
+        </h3>
+        <h3>
           <strong>{{ 'card.title2' | translate }}</strong>
           {{ specialty.averageSalaryUsd }}
-        </p>
-        <p>
+        </h3>
+        <h3>
           <strong>{{ 'card.title3' | translate }}</strong>
           {{ specialty.patientPopulation }}
+        </h3>
+        <strong>{{ 'final' | translate }}</strong>
+        <p>
+          {{ specialty.boardCertification }}
         </p>
       </mat-card-content>
     </mat-card>
