@@ -1,0 +1,4 @@
+.mat-button-toggle-group {
+  display: flex;
+  /*justify-content: flex-end; Esto es para que el boton este en la izquierda*/
+}
