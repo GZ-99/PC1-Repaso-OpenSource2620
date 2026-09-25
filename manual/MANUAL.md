@@ -1,5 +1,9 @@
 # REPASO 1 - OPEN SOURCE (Desarrollando un examén pasado)
 
+Repositorio de apoyo 1: https://github.com/GZ-99/Catch-Up-Main-OpenSource2026
+<br>
+Repositorio de apoyo 2: https://github.com/GZ-99/Catch-Up-Master-OpenSource2026
+
 ## CREAR PROYECTO
 
 Al empezar, selecciona estas opciones y crea el proyecto:
@@ -30,6 +34,8 @@ Para empezar, hay que ejecutar:
 
 ```bash
 ng add @angular/material
+npm install @ngx-translate/core
+npm install @ngx-translate/http-loader
 ng g c shared/presentation/components/footer
 ng g c shared/presentation/components/toolbar
 ng g c shared/presentation/components/language-switcher
@@ -46,6 +52,15 @@ Luego, tienes que desarrollar estos archivos:
 <app-footer/>
 ```
 * Luego, desarrollas los arhivos de "toolbar".
+* Después, desarrollas los archivos de "language-switcher"
+
+### i18n
+
+Basandote en lo que dice el problema, haces los archivos "en.json" y "es.json"
+
+<img src="imagenes/case1.png">
+
+<img src="imagenes/i18n.png">
 
 ### Medical
 
@@ -62,6 +77,10 @@ Así deben quedar (Incluso si hay sub clases, solhaz un entity del principal):
 
 <img src="imagenes/medical_structure1.png">
 
+###  Data (Por si acaso)
+
+En caso de que el url que te pasen no funcione o simplemente te pasen una base de datos, en la carpeta "public", debes agregarlo como "data.json"
+
 ### Environments
 
 Ejecuta esto:
@@ -75,7 +94,7 @@ Así deben quedar los 2 archivos:
 
 ### Medical
 
-Añades el archivo "top-headlines-response", ejecutas esto y eliminas el archivo que termina en ".spec.ts":
+Ejecutas estos commandos y eliminas los archivo que termina en ".spec.ts":
 
 ```bash
 ng g interface medical/infrastructure/specialty-response
@@ -103,4 +122,29 @@ Así debe quedar:
 
 <img src="imagenes/medical_structure3.png">
 
-<img src="">
+Así deben quedar los archivos:
+
+* "medical-page.ts":
+<br><img src="imagenes/ts.png">
+* "medical-page.html": Aquí se organiza todos los datos con sus traducciones
+<br><img src="imagenes/html.png">
+* "medical-page.css":
+<br><img src="imagenes/css.png">
+
+### Shared
+
+Luego debes modificar los archivos "layout", para conectarlo con lo demás
+
+## TERMINAR PROYECTO
+
+Finalmente, hay que modificar los archivos "app.ts" y "app.html":
+
+<img src="imagenes/app.png">
+
+Al mismo tiempo que tienes que configurar el archivo "app.config.ts" de esta forma:
+
+<img src="imagenes/app-config.png">
+
+Este es el resultado final:
+
+<img src="imagenes">
